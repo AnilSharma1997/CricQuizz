@@ -131,22 +131,17 @@ function resetGame() {
 var startScreen;
 var gameHTML;
 var counter = 20;
-var questionArray = ["Who was the first indian captain of T20 match ?",
-                    "Who was the first Indian bowler to take hat-tick in test cricket?",
+var questionArray = ["Who was the first Indian captain of T20 match ?",
+                    "Who was the first Indian bowler to take Hat-trick in test cricket?",
                     "First Indian batsman to score 100 in test cricket?", 
                     "Who did the fastest stumping in cricket history?", 
                     "The most number of consecutive matches played for a team?"];
 
-var answerArray = [["MS Dhoni", "Sourav Ganguly", "Rahul Dravid", "Virendra Sehwag"],
+var answerArray = [["MS Dhoni", "Sourav Ganguly", "Rahul Dravid", "Virender Sehwag"],
                    ["Kapil dev","Chetan Sharma","Harbhajan Singh","Anil Kumble"], 
-                   ["Vijay Merchant", "Lala Amarnath", "Sunil Gavsker", "Vinoo Mankadu"], 
-                   ["Mark Boucher","Adam Gilchrist","MS Dhoni","AB Devilliers"], 
-                   ["Ricky Ponting", "Sachin Tendulkar", "Jacks Kallis", "Andy Flowe"]];
-
-    var firstChoice = ["MS Dhoni", "Kapil dev", "Vijay Merchant", "Mark Boucher", "Ricky Ponting"];
-    var secondChoice = ["Sourabh Ganguly", "Chetan Sharma", "Lala Amarnath", "Adam Gilchrist", "Sachin Tendulkar"];
-    var thirdChoice = ["Rahul Dravid", "Harbhajan Singh", "Sunil Gavsker", "MS Dhoni", "Jacks Kallis"];
-    var fourthChoice = ["Virendra Sehwag", "Anil Kumble", "Vinoo Mankad", "AB Devilliers", "Andy Flower"];
+                   ["Vijay Merchant", "Lala Amarnath", "Sunil Gavasker", "Vinoo Mankadu"], 
+                   ["Mark Boucher","Adam Gilchrist","MS Dhoni","AB de Villiers"], 
+                   ["Ricky Ponting", "Sachin Tendulkar", "Jacques Kallis", "Andy Flower"]];
 
 var imageArray = ["<img class='center-block img-right' src='images/sehwag.jpg'>", 
                   "<img class='center-block img-right' src='images/Harbhajan.jpg'>", 
@@ -154,7 +149,7 @@ var imageArray = ["<img class='center-block img-right' src='images/sehwag.jpg'>"
                   "<img class='center-block img-right' src='images/Dhoni.jpg'>", 
                   "<img class='center-block img-right' src='images/Sachin.jpg'>"];
 
-var correctAnswers = ["D. Virendra Sehwag", "C. Harbhajan Singh", "B. Lala Amarnath", "C. MS Dhoni", "B. Sachin Tendulkar", "A. Ankara", "B. Bogota", "D. New Delhi"];
+var correctAnswers = ["D. Virender Sehwag", "C. Harbhajan Singh", "B. Lala Amarnath", "C. MS Dhoni", "B. Sachin Tendulkar"];
 
 var questionCounter = 0;
 var selecterAnswer;
